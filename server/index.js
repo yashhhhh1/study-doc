@@ -11,7 +11,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: ["https://study-doc-mu.vercel.app", "https://studydoc-git-main-yashhhhh1s-projects.vercel.app"],
+  origin: ["https://study-doc-mu.vercel.app"],
   methods: ['GET', 'POST', 'PUT'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
