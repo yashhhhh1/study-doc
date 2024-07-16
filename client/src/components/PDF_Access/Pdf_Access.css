@@ -1,0 +1,44 @@
+.pdf {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+}
+
+.pdf{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+  
+}
+
+h1 {
+  color: green;
+}
+
+.container {
+  height: 100%;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height to center vertically */
+  background-color: #f8f9fa; /* Optional: background color */
+}
+
+.box {
+  padding: 20px; /* Adjust padding as needed */
+  margin: 10px;  /* Space between boxes */
+  background-color: #007bff; /* Box color */
+  color: white; /* Text color */
+  border-radius: 5px; /* Optional: rounded corners */
+  width: 200px; /* Optional: fixed width */
+  text-align: center; /* Center text inside the box */
+}
