@@ -13,6 +13,7 @@ connectDB();
 app.use(cors({
   origin: ["https://study-doc-mu.vercel.app", "https://studydoc-git-main-yashhhhh1s-projects.vercel.app"],
   methods: ['GET', 'POST', 'PUT'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
 app.use(bodyParser.json());
