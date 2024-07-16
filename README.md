@@ -8,7 +8,7 @@ this web site to help to resource and study material if you are the access the s
 
 1: Clone the Project 
    ```bash 
-      git clone link
+     git clone https://github.com/yashhhhh1/study-doc.git
    ``` 
 
 2: simply run the command  
