@@ -91,26 +91,7 @@ export const userDeatilsfunc = async (headers) => {
   }
 };
 
-//validation
-// export const validation = async () => {
-//   const token = localStorage.getItem("usersdatatoken");
-
-//   try {
-//     const response = await fetch("http://localhost:8080/auth/validation", {
-//       method: "GET",
-//       headers: {
-//         "Content-Type": "application/json",
-//         Authorization: token,
-//       },
-//     });
-
-//     return response;
-//   } catch (error) {
-//     console.error("Fetch error:", error);
-//   }
-// };
-
-
+// upload function
 export const uploadfunc =async (header,data)=>{
 
   try {
@@ -127,7 +108,3 @@ export const uploadfunc =async (header,data)=>{
     throw error;
   }
 }
-
-
-
-

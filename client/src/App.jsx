@@ -14,8 +14,6 @@ import { Footer } from "./components/Footer/Footer";
 import { UserDetail } from "./components/User_Details/UserDetail";
 import { Upload } from "./components/Upload/Upload";
 import { Logout } from "./components/Logout/Logout";
-// import { PDF_view } from "./components/PDF_view/PDF_view";
-// import { PdfAccess } from "./components/PDF_Access/Pdf_Access";
 import { PDFPage } from "./components/PDF_Access/PDFPage";
 
 // css
@@ -25,6 +23,7 @@ import "bootstrap/dist/js/bootstrap.js";
 // usecontext
 export const UserContext = createContext();
 import { initialState, reducer } from "./reducer/UseReducer";
+import { Notfound } from "./NotFound/Notfound";
 
 const App = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
@@ -51,6 +50,7 @@ const App = () => {
           <Route path="/subject/:id" element={<Subject />} />
           <Route path="/subject/:subject/:id" element={<PDFPage />} />
           <Route path="/logout" element={<Logout />} />
+          <Route path="*" element={<Notfound />} />
         </Routes>
         
         <Footer />

@@ -3,7 +3,6 @@ const app = express();
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
-
 require('dotenv').config()
 
 const connectDB = require("./db");
@@ -12,7 +11,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5173"],
+  origin: [process.env.BASE_URL],
   methods:['GET','POST','PUT'],
   credentials: true
 }));
