@@ -34,5 +34,5 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
   },
-  "proxy": "https://study-doc-mu.vercel.app"
+  "proxy": "https://study-doc-tau.vercel.app/"
 }
