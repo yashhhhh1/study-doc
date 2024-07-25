@@ -12,12 +12,11 @@ export const Home = () => {
                 <div className="p-2">
                   <p className="fw-medium fs-3 maintextColor">Best Platform</p>
                   <h1 className="fw-bolder display-3 maintextColor">
-                    Book a Ride, Visitor Management
+                  Free To Access, The Resource
                   </h1>
                   <div className="horizontalBar my-4"></div>
                   <p className="maintextColor fw-medium">
-                    A new unique way to book a ride using QR codes including
-                    guest management, order management and QR user verification.
+                  Unlock Free Study Materials by Sharing Your Own: 24-Hour Access Upon Contribution
                   </p>
                 </div>
               </div>
@@ -48,162 +47,72 @@ export const Home = () => {
             <div className="card__icon">
               <i className="fas fa-bolt"></i>
             </div>
-            <p className="card__exit">
-              <i className="fas fa-times"></i>
-            </p>
             <h2 className="card__title">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Unlock Free Study Resources by Sharing Your Own – Access for 24 Hours
             </h2>
-            <p className="card__apply">
-              <a className="card__link" href="#">
-                Apply Now <i className="fas fa-arrow-right"></i>
-              </a>
-            </p>
           </div>
           <div className="card card-2">
             <div className="card__icon">
               <i className="fas fa-bolt"></i>
             </div>
-            <p className="card__exit">
-              <i className="fas fa-times"></i>
-            </p>
             <h2 className="card__title">
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Share to Access: Free Educational Materials for a Limited Time
             </h2>
-            <p className="card__apply">
-              <a className="card__link" href="#">
-                Apply Now <i className="fas fa-arrow-right"></i>
-              </a>
-            </p>
           </div>
           <div className="card card-3">
             <div className="card__icon">
               <i className="fas fa-bolt"></i>
             </div>
-            <p className="card__exit">
-              <i className="fas fa-times"></i>
-            </p>
-            <h2 className="card__title">Ut enim ad minim veniam.</h2>
-            <p className="card__apply">
-              <a className="card__link" href="#">
-                Apply Now <i className="fas fa-arrow-right"></i>
-              </a>
-            </p>
+            <h2 className="card__title">Contribute and Learn: Free Study Resources Available for 24 Hours</h2>
           </div>
           <div className="card card-4">
             <div className="card__icon">
               <i className="fas fa-bolt"></i>
             </div>
-            <p className="card__exit">
-              <i className="fas fa-times"></i>
-            </p>
             <h2 className="card__title">
-              Quis nostrud exercitation ullamco laboris nisi.
+            Upload and Gain: Access Free Study Materials for One Day
             </h2>
-            <p className="card__apply">
-              <a className="card__link" href="#">
-                Apply Now <i className="fas fa-arrow-right"></i>
-              </a>
-            </p>
           </div>
           <div className="card card-5">
             <div className="card__icon">
               <i className="fas fa-bolt"></i>
             </div>
-            <p className="card__exit">
-              <i className="fas fa-times"></i>
-            </p>
             <h2 className="card__title">
-              Ut aliquip ex ea commodo consequat. Duis aute irure dolor.
+            Collaborate and Access: Free Educational Content for 24 Hours
             </h2>
-            <p className="card__apply">
-              <a className="card__link" href="#">
-                Apply Now <i className="fas fa-arrow-right"></i>
-              </a>
-            </p>
           </div>
           <div className="card card-1">
             <div className="card__icon">
               <i className="fas fa-bolt"></i>
             </div>
-            <p className="card__exit">
-              <i className="fas fa-times"></i>
-            </p>
             <h2 className="card__title">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                ccess Free Study Resources by Contributing
             </h2>
-            <p className="card__apply">
-              <a className="card__link" href="#">
-                Apply Now <i className="fas fa-arrow-right"></i>
-              </a>
-            </p>
           </div>
         </div>
       </div>
 
       {/* Guide to Help user */}
 
-      <div className="step-container">
-        <h1>Step To Guide</h1>
+        <div className="step-container">
+        <h1>Easy Three Step To Guide</h1>
         <ol>
           <li>
-            <div className="icon">
-              <i className="fa-solid fa-bicycle"></i>
-            </div>
             <div className="title">Step 1</div>
             <div className="descr">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              porro.
+              Go to the homepage of the website and sign up the page.
             </div>
           </li>
           <li>
-            <div className="icon">
-              <i className="fa-solid fa-car"></i>
-            </div>
             <div className="title">Step 2</div>
             <div className="descr">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              porro.
+            Go to the Upload or Contribute section of the website.
             </div>
           </li>
           <li>
-            <div className="icon">
-              <i className="fa-solid fa-helicopter"></i>
-            </div>
             <div className="title">Step 3</div>
             <div className="descr">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              porro.
-            </div>
-          </li>
-          <li>
-            <div className="icon">
-              <i className="fa-solid fa-plane"></i>
-            </div>
-            <div className="title">Step 4</div>
-            <div className="descr">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              porro.
-            </div>
-          </li>
-          <li>
-            <div className="icon">
-              <i className="fa-solid fa-rocket"></i>
-            </div>
-            <div className="title">Step 5</div>
-            <div className="descr">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              porro.
-            </div>
-          </li>
-          <li>
-            <div className="icon">
-              <i className="fa-solid fa-bus"></i>
-            </div>
-            <div className="title">Step 6</div>
-            <div className="descr">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              porro.
+            Go to course the Nav bar or browse through categories to find the resource you want to view.
             </div>
           </li>
         </ol>

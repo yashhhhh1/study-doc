@@ -14,8 +14,6 @@ import home from "../../assets/navabr-assets/home.svg";
 import lightbulb_fill from "../../assets/navabr-assets/lightbulb-fill.svg";
 import lightbulb from "../../assets/navabr-assets/lightbulb.svg";
 import megaphone from "../../assets/navabr-assets/megaphone.svg";
-import search from "../../assets/navabr-assets/search.svg";
-import "./Headers.css";
 
 import React, { useContext, useEffect } from "react";
 import { UserContext } from "../../App";
@@ -53,20 +51,6 @@ export const Headers = () => {
                 Material
               </span>
             </NavLink>
-            <div className="position-relative ms-4 d-none d-xl-inline-block">
-              <input
-                className="searchInput bg-body-tertiary iconCursor ps-md-5 p-1 p-md-2"
-                type="search"
-                placeholder="Search Material"
-                aria-label="Search"
-              />
-              <img
-                className="position-absolute searchImg iconCursor"
-                src={search}
-                alt="search"
-                loading="lazy"
-              />
-            </div>
           </div>
           <div className="d-flex align-items-center">
             {state.user ? (
